@@ -1,326 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESEBRAVO | Official Site</title>
-  <meta name="description" content="Official site of ESEBRAVO. Dark conscious spoken word from Chile. Listen to Silent Will and WaitingMode.">
-  <meta name="keywords" content="ESEBRAVO, Silent Will, WaitingMode, NightMode, Surrendered, FRAME, spoken word Chile, dark spoken word, ESEBRAVO official">
-  <meta name="author" content="Sebastián Bravo">
-  <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#050505">
-  <link rel="canonical" href="https://www.esebravo.cl/">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-  <meta property="og:title" content="ESEBRAVO | Official Site">
-  <meta property="og:description" content="No Rap. No Sing. Just Words.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.esebravo.cl/">
-  <meta property="og:image" content="https://www.esebravo.cl/images/og-cover.jpg">
-  <meta property="og:site_name" content="ESEBRAVO">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ESEBRAVO | Official Site">
-  <meta name="twitter:description" content="Dark conscious spoken word from Chile.">
-  <meta name="twitter:image" content="https://www.esebravo.cl/images/og-cover.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"MusicGroup",
-    "name":"ESEBRAVO",
-    "url":"https://www.esebravo.cl",
-    "genre":"Spoken Word",
-    "sameAs":[
-      "https://www.instagram.com/esebravo.cl",
-      "https://www.youtube.com/@esebravo-cl",
-      "https://open.spotify.com/artist/5J7Ldxzw9xgJoKephTWvuB",
-      "https://www.tiktok.com/@esebravo.cl"
-    ]
-  }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
 </head>
 <body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Archivo+Black&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap">
+  <style>
+    body { margin: 0; background: #050505; }
+    ::selection { background: #ffffff; color: #050505; }
+    a { color: inherit; text-decoration: none; }
+    .frame-card:hover .frame-thumb { transform: scale(1.03); filter: grayscale(0%) brightness(0.9); }
+    .frame-card:hover .frame-title { color: #ffffff; }
+    .ig-btn:hover { background: #ffffff; color: #050505; }
+    .foot-link:hover { color: #ffffff; }
+  </style>
+</helmet>
 
-  <main class="site-wrapper">
+<div style="position:relative; background:#050505; color:#e8e8e6; font-family:'Inter',sans-serif; min-height:100vh; overflow-x:hidden;">
+
+  <div style="position:fixed; inset:0; pointer-events:none; opacity:0.08; z-index:1; background-image:url('data:image/svg+xml;utf8,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22&gt;&lt;filter id=%22n%22&gt;&lt;feTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%222%22 stitchTiles=%22stitch%22/&gt;&lt;/filter&gt;&lt;rect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/&gt;&lt;/svg&gt;');"></div>
+
+  <div style="position:relative; z-index:2;">
 
     <!-- HERO -->
-    <section class="hero">
-      <span class="micro-text">FRAME // IN PROGRESS</span>
-      <h1 class="brand-title">
-        <span>ESEBRAVO</span>
-        <img src="images/logo-esebravo.svg" alt="ESEBRAVO">
-      </h1>
-      <p class="tagline">No Rap. No Sing. Just Words.</p>
-      <p class="statement">I DON'T SEEK TO ENTERTAIN.</p>
+    <section style="min-height:92vh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:40px 24px; border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.25em; color:#6b6b6b; text-transform:uppercase; margin-bottom:32px;">FRAME // A PSYCHOLOGICAL PROGRESSION</div>
+      <h1 style="font-family:'Archivo Black',sans-serif; font-size:clamp(56px,13vw,168px); line-height:0.9; letter-spacing:-0.01em; margin:0; color:#ffffff; text-transform:uppercase;">ESEBRAVO</h1>
+      <div style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(16px,2.4vw,24px); letter-spacing:0.08em; color:#9a9a9a; text-transform:uppercase; margin-top:28px;">No Rap. No Sing. Just Words.</div>
     </section>
 
-    <!-- LISTEN -->
-    <section class="listen-section">
-      <span class="block-label">LISTEN</span>
-      <div class="embed-shell">
-        <iframe
-          style="border-radius:12px;"
-          src="https://open.spotify.com/embed/artist/5J7Ldxzw9xgJoKephTWvuB?utm_source=generator&theme=0"
-          width="100%" height="380" frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy">
-        </iframe>
+    <!-- SPOTIFY -->
+    <section style="padding:64px 24px; max-width:900px; margin:0 auto; border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="background:#0a0a0a; border:1px solid rgba(255,255,255,0.1); border-radius:16px; padding:16px; box-shadow:0 20px 60px rgba(0,0,0,0.5);">
+        <iframe style="border-radius:12px; display:block;" src="https://open.spotify.com/embed/artist/5J7Ldxzw9xgJoKephTWvuB?theme=0" width="100%" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="ESEBRAVO on Spotify"></iframe>
       </div>
-      <a href="https://open.spotify.com/artist/5J7Ldxzw9xgJoKephTWvuB" target="_blank" class="block-link">Open on Spotify</a>
     </section>
 
-    <!-- FRAME ARC -->
-    <section class="frame-section">
-
-      <div class="frame-header">
-        <span class="micro-text">PSYCHOLOGICAL PROGRESSION</span>
-        <h2 class="frame-title">FRAME</h2>
-        <p class="frame-subtitle">Not a collection of songs. A progression. Four stages. One process.</p>
+    <!-- FRAME / YOUTUBE -->
+    <section style="padding:88px 24px 56px; max-width:1240px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:56px;">
+        <div style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.25em; color:#6b6b6b; text-transform:uppercase; margin-bottom:16px;">PSYCHOLOGICAL PROGRESSION</div>
+        <h2 style="font-family:'Archivo Black',sans-serif; font-size:clamp(40px,7vw,88px); color:#ffffff; margin:0; text-transform:uppercase; letter-spacing:-0.01em;">FRAME</h2>
+        <p style="font-family:'Inter',sans-serif; font-size:16px; color:#8a8a8a; max-width:520px; margin:20px auto 0; line-height:1.6;">Not a collection of songs. A progression. Four stages. One process.</p>
       </div>
 
-      <div class="frame-grid">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:20px;">
 
-        <article class="frame-card available">
-          <div class="frame-card-top">
-            <span class="frame-number">I</span>
-            <span class="frame-status available-tag">Available</span>
+        <a class="frame-card" href="https://youtu.be/OfQYFG7v7Mw" target="_blank" rel="noopener" style="display:flex; flex-direction:column; border:1px solid rgba(255,255,255,0.1); border-radius:12px; overflow:hidden; background:#0a0a0a;">
+          <div style="position:relative; aspect-ratio:16/9; overflow:hidden; background:#111;">
+            <img class="frame-thumb" src="https://img.youtube.com/vi/OfQYFG7v7Mw/maxresdefault.jpg" alt="Silent Will" style="width:100%; height:100%; object-fit:cover; filter:grayscale(70%) brightness(0.6); transition:all 0.3s ease;">
+            <div style="position:absolute; top:12px; left:14px; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.15em; color:#c8c8c8; text-transform:uppercase;">Available</div>
           </div>
-          <a href="https://youtu.be/OfQYFG7v7Mw?si=tVXZvI66Qt-7ufUt" target="_blank" class="frame-thumb">
-            <img src="https://img.youtube.com/vi/OfQYFG7v7Mw/maxresdefault.jpg" alt="Silent Will">
-            <span class="frame-play">&#9654;</span>
-          </a>
-          <div class="frame-card-info">
-            <h3 class="frame-card-title">Silent Will</h3>
-            <p class="frame-card-desc">The decision. Internal authorization. Stillness with intent.</p>
+          <div style="padding:20px;">
+            <div style="font-family:'Space Mono',monospace; font-size:12px; color:#6b6b6b; margin-bottom:8px;">I</div>
+            <div class="frame-title" style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:10px; transition:color 0.2s;">Silent Will</div>
+            <p style="font-family:'Inter',sans-serif; font-size:13px; color:#7a7a7a; line-height:1.55; margin:0;">The decision. Internal authorization. Stillness with intent.</p>
           </div>
-        </article>
+        </a>
 
-        <article class="frame-card available">
-          <div class="frame-card-top">
-            <span class="frame-number">II</span>
-            <span class="frame-status available-tag">Available</span>
+        <a class="frame-card" href="https://youtu.be/FdyIWd3ahIY" target="_blank" rel="noopener" style="display:flex; flex-direction:column; border:1px solid rgba(255,255,255,0.1); border-radius:12px; overflow:hidden; background:#0a0a0a;">
+          <div style="position:relative; aspect-ratio:16/9; overflow:hidden; background:#111;">
+            <img class="frame-thumb" src="https://img.youtube.com/vi/FdyIWd3ahIY/maxresdefault.jpg" alt="WaitingMode" style="width:100%; height:100%; object-fit:cover; filter:grayscale(70%) brightness(0.6); transition:all 0.3s ease;">
+            <div style="position:absolute; top:12px; left:14px; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.15em; color:#c8c8c8; text-transform:uppercase;">Available</div>
           </div>
-          <a href="https://youtu.be/FdyIWd3ahIY?si=LudIxdhQqvJyKwCG" target="_blank" class="frame-thumb">
-            <img src="https://img.youtube.com/vi/FdyIWd3ahIY/maxresdefault.jpg" alt="WaitingMode">
-            <span class="frame-play">&#9654;</span>
-          </a>
-          <div class="frame-card-info">
-            <h3 class="frame-card-title">WaitingMode</h3>
-            <p class="frame-card-desc">Sustained tension. No release. The body stays active. The mind can't turn off.</p>
+          <div style="padding:20px;">
+            <div style="font-family:'Space Mono',monospace; font-size:12px; color:#6b6b6b; margin-bottom:8px;">II</div>
+            <div class="frame-title" style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:10px; transition:color 0.2s;">WaitingMode</div>
+            <p style="font-family:'Inter',sans-serif; font-size:13px; color:#7a7a7a; line-height:1.55; margin:0;">Sustained tension. No release. The body stays active. The mind can't turn off.</p>
           </div>
-        </article>
+        </a>
 
-        <article class="frame-card available">
-          <div class="frame-card-top">
-            <span class="frame-number">III</span>
-            <span class="frame-status available-tag">Available</span>
+        <a class="frame-card" href="https://youtu.be/gmtI3ZWMgnE" target="_blank" rel="noopener" style="display:flex; flex-direction:column; border:1px solid rgba(255,255,255,0.1); border-radius:12px; overflow:hidden; background:#0a0a0a;">
+          <div style="position:relative; aspect-ratio:16/9; overflow:hidden; background:#111;">
+            <img class="frame-thumb" src="https://img.youtube.com/vi/gmtI3ZWMgnE/maxresdefault.jpg" alt="NightMode" style="width:100%; height:100%; object-fit:cover; filter:grayscale(70%) brightness(0.6); transition:all 0.3s ease;">
+            <div style="position:absolute; top:12px; left:14px; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.15em; color:#c8c8c8; text-transform:uppercase;">Available</div>
           </div>
-          <a href="https://youtu.be/gmtI3ZWMgnE" target="_blank" class="frame-thumb">
-            <img src="https://img.youtube.com/vi/gmtI3ZWMgnE/maxresdefault.jpg" alt="NightMode">
-            <span class="frame-play">▶</span>
-          </a>
-          <div class="frame-card-info">
-            <h3 class="frame-card-title">NightMode</h3>
-            <p class="frame-card-desc">The descent. Internal processing. Friction and insomnia.</p>
+          <div style="padding:20px;">
+            <div style="font-family:'Space Mono',monospace; font-size:12px; color:#6b6b6b; margin-bottom:8px;">III</div>
+            <div class="frame-title" style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:10px; transition:color 0.2s;">NightMode</div>
+            <p style="font-family:'Inter',sans-serif; font-size:13px; color:#7a7a7a; line-height:1.55; margin:0;">The descent. Internal processing. Friction and insomnia.</p>
           </div>
-        </article>
+        </a>
 
-        <article class="frame-card upcoming">
-          <div class="frame-card-top">
-            <span class="frame-number">IV</span>
-            <span class="frame-status upcoming-tag">Oct 2026</span>
+        <div style="display:flex; flex-direction:column; border:1px solid rgba(255,255,255,0.08); border-radius:12px; overflow:hidden; background:#0a0a0a; opacity:0.5;">
+          <div style="position:relative; aspect-ratio:16/9; background:#000; display:flex; align-items:center; justify-content:center; border-bottom:1px solid rgba(255,255,255,0.06);">
+            <span style="font-family:'Space Mono',monospace; font-size:13px; letter-spacing:0.3em; color:#4a4a4a; text-transform:uppercase;">COMING</span>
           </div>
-          <div class="frame-thumb placeholder">
-            <span class="frame-coming">COMING</span>
+          <div style="padding:20px;">
+            <div style="font-family:'Space Mono',monospace; font-size:12px; color:#5a5a5a; margin-bottom:8px;">IV</div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:10px;">Surrendered</div>
+            <p style="font-family:'Inter',sans-serif; font-size:13px; color:#5a5a5a; line-height:1.55; margin:0 0 10px;">The final state. Irreversible integration. The point of no return.</p>
+            <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.15em; color:#5a5a5a; text-transform:uppercase;">Oct 2026</div>
           </div>
-          <div class="frame-card-info">
-            <h3 class="frame-card-title">Surrendered</h3>
-            <p class="frame-card-desc">The final state. Irreversible integration. The point of no return.</p>
-          </div>
-        </article>
+        </div>
 
       </div>
 
-      <p class="frame-note">All four pieces are recorded. FRAME completes this year.</p>
-
+      <p style="text-align:center; font-family:'Inter',sans-serif; font-size:13px; color:#5a5a5a; margin-top:40px;">All four pieces recorded. FRAME completes this year.</p>
     </section>
 
-    <!-- PRESS -->
-    <section class="press-section">
+    <!-- INSTAGRAM -->
+    <section style="padding:56px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.08);">
+      <a class="ig-btn" href="https://instagram.com/esebravo.cl" target="_blank" rel="noopener" style="display:inline-block; padding:16px 40px; border:1px solid rgba(255,255,255,0.25); border-radius:100px; font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:14px; letter-spacing:0.1em; text-transform:uppercase; color:#e8e8e6; transition:all 0.2s ease;">Follow on Instagram</a>
+    </section>
 
-      <div class="press-section-header">
-        <span class="micro-text">PRESS</span>
-      </div>
+    <!-- FRAME - LA OBRA -->
+    <section style="padding:88px 24px; max-width:760px; margin:0 auto; border-top:1px solid rgba(255,255,255,0.08); text-align:center;">
+      <div style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.25em; color:#6b6b6b; text-transform:uppercase; margin-bottom:16px;">THE WORK</div>
+      <h2 style="font-family:'Archivo Black',sans-serif; font-size:clamp(36px,6vw,64px); color:#ffffff; margin:0 0 28px; text-transform:uppercase; letter-spacing:-0.01em;">FRAME</h2>
+      <p style="font-family:'Inter',sans-serif; font-size:16px; color:#9a9a9a; line-height:1.75; margin:0 0 56px;">FRAME is not a collection of songs. It's a psychological progression in four stages, one continuous process about control, surrender and the internal states that don't fit into labels. The spoken voice is the thread. Each chapter changes its skin, in sound and in image, but the process is one.</p>
 
-      <div class="press-item">
-        <button class="press-toggle" onclick="togglePress('press-waitingmode')">
-          <span class="press-toggle-label">
-            WAITINGMODE — Comunicado de Prensa · 2026
-            <span class="press-arrow" id="arrow-press-waitingmode">&#8595;</span>
-          </span>
-        </button>
-        <div class="press-content" id="press-waitingmode">
-          <div class="press-body">
-            <h2 class="press-heading">ESEBRAVO lanza WAITINGMODE,<br>segunda parte de su obra FRAME</h2>
-            <p>Sebastián Bravo presenta WAITINGMODE bajo su proyecto ESEBRAVO. La pieza es el segundo movimiento de FRAME, una obra dividida en cuatro etapas que funciona como progresión psicológica, no como colección de canciones. Cada parte empuja a la siguiente y muestra un estado mental distinto dentro del mismo proceso.</p>
-            <p>Si SILENT WILL fue el momento de decidir — de autorizar algo internamente — WAITINGMODE viene justo después. Es la suspensión que sigue a esa decisión: el tiempo se alarga, el cuerpo sigue activo, la mente no se puede apagar. No es espera pasiva. Es tensión sostenida.</p>
-            <blockquote class="press-quote">"No hice una canción sobre esperar. Hice la sensación de estar esperando."</blockquote>
-            <p>La pieza fue compuesta en Panguipulli y grabada en Moreno Estudio, Santiago, junto a Nicolás Moreno. La base sonora es tensa, repetitiva y oscura — el pulso permanece vivo durante toda la escucha, pero nunca llega al descanso. La voz no explica ni narra: habita el estado desde adentro y lo sostiene hasta el final.</p>
-            <div class="press-arc">
-              <h3>FRAME — Las cuatro etapas</h3>
-              <ol>
-                <li><strong>Silent Will</strong> — La decisión. <em>(Disponible)</em></li>
-                <li><strong>WaitingMode</strong> — La espera sostenida. <em>(Disponible)</em></li>
-                <li><strong>NightMode</strong> — La mente bajando al tramo oscuro. <em>(Julio 2026)</em></li>
-                <li><strong>Surrendered</strong> — Cuando ya no hay retorno. <em>(Octubre 2026)</em></li>
-              </ol>
-              <p>Las cuatro piezas están grabadas. FRAME se completa este año.</p>
-            </div>
-            <div class="press-data">
-              <div class="press-data-col">
-                <span>Artista</span><strong>ESEBRAVO</strong>
-                <span>Origen</span><strong>Chile / Panguipulli</strong>
-                <span>Género</span><strong>Dark electronic / experimental</strong>
-                <span>Proyecto</span><strong>FRAME</strong>
-              </div>
-              <div class="press-data-col">
-                <span>Lanzamiento</span><strong>WaitingMode · 2026</strong>
-                <span>YouTube</span><a href="https://www.youtube.com/@esebravo-cl" target="_blank">@esebravo-cl</a>
-                <span>Spotify</span><a href="https://open.spotify.com/artist/5J7Ldxzw9xgJoKephTWvuB" target="_blank">ESEBRAVO</a>
-                <span>Instagram</span><a href="https://www.instagram.com/esebravo.cl" target="_blank">@esebravo.cl</a>
-              </div>
-            </div>
-            <p class="press-bio-ref">Para trayectoria completa del artista, ver <a href="about.html">About</a>.</p>
+      <div style="display:flex; flex-direction:column; gap:0; text-align:left; border-top:1px solid rgba(255,255,255,0.08);">
+        <div style="display:flex; gap:20px; padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.08);">
+          <div style="font-family:'Space Mono',monospace; font-size:14px; color:#6b6b6b; flex-shrink:0;">I</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:6px;">Silent Will</div>
+            <p style="font-family:'Inter',sans-serif; font-size:14px; color:#7a7a7a; line-height:1.55; margin:0;">The decision. Internal authorization. Stillness with intent.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:20px; padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.08);">
+          <div style="font-family:'Space Mono',monospace; font-size:14px; color:#6b6b6b; flex-shrink:0;">II</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:6px;">WaitingMode</div>
+            <p style="font-family:'Inter',sans-serif; font-size:14px; color:#7a7a7a; line-height:1.55; margin:0;">Sustained tension. No release. The mind can't turn off.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:20px; padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.08);">
+          <div style="font-family:'Space Mono',monospace; font-size:14px; color:#6b6b6b; flex-shrink:0;">III</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:6px;">NightMode</div>
+            <p style="font-family:'Inter',sans-serif; font-size:14px; color:#7a7a7a; line-height:1.55; margin:0;">The descent. Internal processing. Friction and insomnia.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:20px; padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.08);">
+          <div style="font-family:'Space Mono',monospace; font-size:14px; color:#6b6b6b; flex-shrink:0;">IV</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:#e8e8e6; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:6px;">Surrendered</div>
+            <p style="font-family:'Inter',sans-serif; font-size:14px; color:#7a7a7a; line-height:1.55; margin:0;">The final state. Irreversible integration. The point of no return.</p>
           </div>
         </div>
       </div>
 
-      <div class="press-divider"></div>
-
-      <div class="press-item">
-        <button class="press-toggle" onclick="togglePress('press-silentwill')">
-          <span class="press-toggle-label">
-            SILENT WILL — Comunicado de Prensa · Febrero 2026
-            <span class="press-arrow" id="arrow-press-silentwill">&#8595;</span>
-          </span>
-        </button>
-        <div class="press-content" id="press-silentwill">
-          <div class="press-body">
-            <h2 class="press-heading">ESEBRAVO presenta SILENT WILL,<br>inicio formal de su obra FRAME</h2>
-            <p>Sebastián Bravo presenta SILENT WILL bajo su proyecto ESEBRAVO — una propuesta de spoken word oscuro que opera fuera de las estructuras tradicionales de la canción. La pieza marca el inicio formal del proyecto en su etapa actual y es el primer movimiento de FRAME, una progresión psicológica en cuatro partes.</p>
-            <p>SILENT WILL no narra hechos ni personajes. Se instala en estados mentales: presión, espera, contención y desplazamiento de conciencia. El silencio no es vacío — es una decisión activa. La obra propone que no reaccionar también es una forma de poder.</p>
-            <blockquote class="press-quote">"El silencio no es vacío. Es una decisión activa."</blockquote>
-            <p>La propuesta sonora es minimalista y densa, diseñada para sostener la incomodidad del oyente sin resolverla. Espacio y ritmo funcionan como estructura psicológica más que como acompañamiento musical. Grabado en Moreno Estudio, Santiago, junto a Nicolás Moreno.</p>
-            <div class="press-arc">
-              <h3>FRAME — Las cuatro etapas</h3>
-              <ol>
-                <li><strong>Silent Will</strong> — La decisión. <em>(Disponible)</em></li>
-                <li><strong>WaitingMode</strong> — La espera sostenida. <em>(Disponible)</em></li>
-                <li><strong>NightMode</strong> — La mente bajando al tramo oscuro. <em>(Julio 2026)</em></li>
-                <li><strong>Surrendered</strong> — Cuando ya no hay retorno. <em>(Octubre 2026)</em></li>
-              </ol>
-            </div>
-            <div class="press-data">
-              <div class="press-data-col">
-                <span>Artista</span><strong>ESEBRAVO</strong>
-                <span>Origen</span><strong>Chile / Panguipulli</strong>
-                <span>Género</span><strong>Dark electronic / experimental</strong>
-                <span>Proyecto</span><strong>FRAME</strong>
-              </div>
-              <div class="press-data-col">
-                <span>Lanzamiento</span><strong>Silent Will · Febrero 2026</strong>
-                <span>YouTube</span><a href="https://www.youtube.com/@esebravo-cl" target="_blank">@esebravo-cl</a>
-                <span>Spotify</span><a href="https://open.spotify.com/artist/5J7Ldxzw9xgJoKephTWvuB" target="_blank">ESEBRAVO</a>
-                <span>Instagram</span><a href="https://www.instagram.com/esebravo.cl" target="_blank">@esebravo.cl</a>
-              </div>
-            </div>
-            <p class="press-bio-ref">Para trayectoria completa del artista, ver <a href="about.html">About</a>.</p>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <!-- SUB BRAND -->
-    <section class="brand-mark">
-      <span>ESEBRAVO ></span>
+      <p style="font-family:'Inter',sans-serif; font-size:13px; color:#5a5a5a; margin-top:40px;">An arc that closes as an LP. October 2026.</p>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
-      <nav class="social-links">
-        <a href="https://instagram.com/esebravo.cl" target="_blank">Instagram</a>
-        <a href="https://youtube.com/@esebravo-cl" target="_blank">YouTube</a>
-        <a href="https://tiktok.com/@esebravo.cl" target="_blank">TikTok</a>
-        <a href="about.html">About</a>
-        <a href="#merch">Merch</a>
-      </nav>
-      <small>Panguipulli / Chile</small>
+    <footer style="padding:40px 24px 56px; text-align:center; border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:28px; margin-bottom:24px;">
+        <a class="foot-link" href="https://instagram.com/esebravo.cl" target="_blank" rel="noopener" style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:#7a7a7a; transition:color 0.2s;">Instagram</a>
+        <a class="foot-link" href="https://youtube.com/@esebravo-cl" target="_blank" rel="noopener" style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:#7a7a7a; transition:color 0.2s;">YouTube</a>
+        <a class="foot-link" href="https://open.spotify.com/artist/5J7Ldxzw9xgJoKephTWvuB" target="_blank" rel="noopener" style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:#7a7a7a; transition:color 0.2s;">Spotify</a>
+        <a class="foot-link" href="https://tiktok.com/@esebravo.cl" target="_blank" rel="noopener" style="font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:#7a7a7a; transition:color 0.2s;">TikTok</a>
+      </div>
+      <div style="font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.2em; color:#4a4a4a; text-transform:uppercase;">Panguipulli / Chile</div>
     </footer>
 
-  </main>
+  </div>
+</div>
 
-  <script>
-    function togglePress(id) {
-      const content = document.getElementById(id);
-      const arrow = document.getElementById('arrow-' + id);
-      const isOpen = content.classList.contains('open');
-      content.classList.toggle('open', !isOpen);
-      arrow.innerHTML = isOpen ? '&#8595;' : '&#8593;';
-    }
-
-    let currentProduct = '';
-    let selectedSize = '';
-
-    function openMerchForm(product) {
-      currentProduct = product;
-      selectedSize = '';
-      document.getElementById('merch-modal-product').textContent = product;
-      document.getElementById('merch-name').value = '';
-      document.getElementById('merch-email').value = '';
-      document.getElementById('merch-city').value = '';
-      document.getElementById('merch-message').value = '';
-      document.querySelectorAll('.merch-size-btn').forEach(b => b.classList.remove('selected'));
-      document.getElementById('merch-success').style.display = 'none';
-      document.querySelector('.merch-form').style.display = 'flex';
-      const isTee = product.toLowerCase().includes('polera');
-      document.getElementById('merch-size-field').style.display = isTee ? 'flex' : 'none';
-      document.getElementById('merch-modal').classList.add('open');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeMerchForm() {
-      document.getElementById('merch-modal').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    function selectSize(btn) {
-      document.querySelectorAll('.merch-size-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      selectedSize = btn.textContent;
-    }
-
-    function submitMerchForm() {
-      const name = document.getElementById('merch-name').value.trim();
-      const email = document.getElementById('merch-email').value.trim();
-      const city = document.getElementById('merch-city').value.trim();
-      if (!name || !email || !city) return;
-      const isTee = currentProduct.toLowerCase().includes('polera');
-      if (isTee && !selectedSize) {
-        document.querySelectorAll('.merch-size-btn').forEach(b => b.style.borderColor = 'rgba(255,255,255,.3)');
-        return;
-      }
-      document.querySelector('.merch-form').style.display = 'none';
-      document.getElementById('merch-success').style.display = 'flex';
-    }
-
-    document.getElementById('merch-modal').addEventListener('click', function(e) {
-      if (e.target === this) closeMerchForm();
-    });
-  </script>
-
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}"></script>
 </body>
 </html>
